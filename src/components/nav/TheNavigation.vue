@@ -7,6 +7,12 @@
         </li>
         <li>
           <router-link to="/teams">Teams</router-link>
+          <!-- <router-link :to="`.teams/${id}?dataOne=${dataOne}`">Teams</router-link> -->
+          <!-- <router-link :to="{name: 'teams'}">Teams</router-link> -->
+          <!-- <router-link :to="{name: 'teamDetail', params: {id: '1'}, query: {dataOne: '123'}}">Teams</router-link> -->
+        </li>
+        <li>
+          <router-link to="/teams/super">Teams super</router-link>
         </li>
         <li>
           <router-link to="/users">Users</router-link>

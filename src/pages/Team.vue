@@ -1,5 +1,6 @@
 <template>
     <h1>Page Team</h1>
+    <router-view></router-view>
     <teams-list/>
 </template>
 

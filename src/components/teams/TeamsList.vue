@@ -8,6 +8,7 @@
       :member-count="team.members.length"
     ></teams-item>
   </ul>
+  <router-link to="/users">Go to Users</router-link>
 </template>
 
 <script>
